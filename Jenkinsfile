@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout Code / Git') {
       steps {
-        git(url: 'https://github.com/srayleighdk/adoptAPet', branch: 'main')
+        git(url: 'https://github.com/srayleighdk/curriculum-app', branch: 'dev')
       }
     }
 
